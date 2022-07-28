@@ -28,7 +28,7 @@ mapview(preds_sf_t,zcol = "flag_1_PREDICTION")
 
 date_time_units <- unique(preds_sf$date_time)
 
-# api_key <- "AIzaSyB1YoJUsPG2--ZpwdxudfN4g8O4CPmu4YI"
+# api_key <- "YOUR GOOGLE KEY!!!"
 # register_google(api_key)
 chi_basemap <- get_map(location=c(lon = -111.90830, lat = 40.69313),
                        zoom=12, maptype = 'toner-2011', 
